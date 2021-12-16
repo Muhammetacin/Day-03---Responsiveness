@@ -10,7 +10,7 @@
     }
 
     .medium, .large {
-        visibility: hidden;
+        display: none;
     }
 
     .small {
@@ -31,6 +31,10 @@
     h2 {
         margin-bottom: 10px;
     }
+
+    p {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -40,11 +44,21 @@
     }
 
     .medium {
-        visibility: visible;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-height: 100vh;
+        max-width: 80vw;
+        margin-left: 10vw;
+        margin-top: 2vh;
     }
 
     .small {
-        visibility: hidden;
+        display: none;
+    }
+
+    p {
+        font-size: 18px;
     }
 }
 
@@ -55,10 +69,20 @@
     }
 
     .large {
-        visibility: visible;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-height: 100vh;
+        max-width: 80vw;
+        margin-left: 10vw;
+        margin-top: 2vh;
     }
 
     .medium {
-        visibility: hidden;
+        display: none;
+    }
+
+    p {
+        font-size: 24px;
     }
 }
