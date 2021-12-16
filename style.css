@@ -6,17 +6,59 @@
 @media only screen and (min-width: 480px) {
     body {
         background-color: #DF2E2E;
+        color: rgb(240, 240, 240);
+    }
+
+    .medium, .large {
+        visibility: hidden;
+    }
+
+    .small {
+        max-height: 100vh;
+        max-width: 80vw;
+        margin-left: 10vw;
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
     }
 }
 
 @media only screen and (min-width: 768px) {
     body {
         background-color: #519259;
+        color: rgb(240, 240, 240);
+    }
+
+    .medium {
+        visibility: visible;
+    }
+
+    .small {
+        visibility: hidden;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     body {
         background-color: #344CB7;
+        color: rgb(240, 240, 240);
+    }
+
+    .large {
+        visibility: visible;
+    }
+
+    .medium {
+        visibility: hidden;
     }
 }
