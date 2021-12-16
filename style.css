@@ -137,6 +137,10 @@
         width: 30vw;
     }
 
+    .large-doable {
+        margin-right: 5vw;
+    }
+
     .doables {
         flex-flow: row nowrap;
     }
