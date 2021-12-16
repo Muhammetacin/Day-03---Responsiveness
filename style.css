@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+        background-color: #DF2E2E;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: #519259;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: #344CB7;
+    }
+}
