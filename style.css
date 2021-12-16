@@ -9,14 +9,18 @@
         color: rgb(240, 240, 240);
     }
 
+    .vanilla, .doables {
+        margin-bottom: 2em;
+    }
+
     .medium, .large {
         display: none;
     }
 
     .small {
         max-height: 100vh;
-        max-width: 80vw;
-        margin-left: 10vw;
+        max-width: 90vw;
+        margin-left: 5vw;
         margin-top: 2vh;
         display: flex;
         justify-content: center;
@@ -44,8 +48,8 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        max-width: 80vw;
-        margin-left: 10vw;
+        max-width: 90vw;
+        margin-left: 5vw;
     }
 }
 
@@ -60,8 +64,8 @@
         justify-content: center;
         flex-direction: column;
         max-height: 100vh;
-        max-width: 80vw;
-        margin-left: 10vw;
+        max-width: 90vw;
+        margin-left: 5vw;
         margin-top: 2vh;
     }
 
@@ -80,6 +84,21 @@
     h2 {
         font-size: 26px;
     }
+
+    .small-doable {
+        width: 60vw;
+    }
+
+    .medium-doable {
+        width: 28vw;
+        margin-right: 2vw;
+    }
+
+    .doables {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -93,8 +112,8 @@
         justify-content: center;
         flex-direction: column;
         max-height: 100vh;
-        max-width: 80vw;
-        margin-left: 10vw;
+        max-width: 90vw;
+        margin-left: 5vw;
         margin-top: 2vh;
     }
 
@@ -112,5 +131,13 @@
 
     h2 {
         font-size: 30px;
+    }
+
+    .small-doable, .medium-doable, .large-doable {
+        width: 30vw;
+    }
+
+    .doables {
+        flex-flow: row nowrap;
     }
 }
